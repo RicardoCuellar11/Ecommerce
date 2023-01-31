@@ -8,6 +8,14 @@ https://rickyecom.web.app
 
 ## Installation
 
+Nota: 
+
+Este proyecto utiliza SASS para crear ciertos modulos con Tailwind CSS. Para instalar:
+
+```
+npm install -g sass
+```
+
  - Paso 1: Instalar Paquetes.
 ```
 npm install
