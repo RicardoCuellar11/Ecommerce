@@ -10,6 +10,8 @@ npm install
 ```
  - Paso 2: Correr el servidor.
 
-npm start
-```
 
+```
+npm start
+
+```
