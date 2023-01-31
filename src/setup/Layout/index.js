@@ -14,7 +14,6 @@ const Layout = () => {
     setIsOpen((prevState) => !prevState);
   };
 
-  // TODO: ver si hay una mejor manera de hacer esto
   const pathName = location.pathname.split('/');
   const isCheckout = pathName.includes('checkout');
 
