@@ -1,10 +1,7 @@
-import { createPortal } from 'react-dom';
-
 import Backdrop from 'components/Backdrop';
-
+import LoaderImage from 'assets/images/loader.gif';
+import { createPortal } from 'react-dom';
 import styles from './index.module.scss';
-
-import LoaderImage from 'assets/images/loader.png';
 
 const Loader = ({
   noPortal,
@@ -22,7 +19,7 @@ const Loader = ({
           <img
             className={`${styles.loader} ${loaderClassName}`}
             src={LoaderImage}
-            alt=""
+            alt="Loader"
           />
         </div>
       </>
